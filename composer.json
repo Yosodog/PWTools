@@ -2,5 +2,13 @@
     "name": "yosodog/pwtools",
     "description": "A library of tools to interact with the Politics and War API",
     "type": "library",
-    "require": {}
+    "require": {
+        "php": ">=8",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosodog\\PWTools\\": "src/"
+        }
+    }
 }
