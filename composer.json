@@ -1,0 +1,6 @@
+{
+    "name": "yosodog/pwtools",
+    "description": "A library of tools to interact with the Politics and War API",
+    "type": "library",
+    "require": {}
+}
